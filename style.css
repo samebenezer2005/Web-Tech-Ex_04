@@ -1,4 +1,4 @@
-/* Import a beautiful Google Font */
+/* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 /* General Reset */
@@ -38,8 +38,10 @@
   color: #fff;
   font-size: 22px;
   font-weight: 700;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 }
 
+/* Navbar Links */
 .nav-links {
   list-style: none;
   display: flex;
@@ -54,16 +56,19 @@
   text-decoration: none;
   padding: 8px 14px;
   border-radius: 6px;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 16px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
   transition: all 0.3s ease;
 }
 
 .nav-links a:hover {
   background: #00ccff;
   color: #003366;
+  box-shadow: 0 0 10px rgba(0, 204, 255, 0.7);
 }
 
-/* Section General Styling */
+/* Sections */
 section {
   min-height: 100vh;
   padding: 120px 20px 60px;

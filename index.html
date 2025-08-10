@@ -15,28 +15,78 @@
       <h1>Aadhaar Management System</h1>
     </div>
     <ul class="nav-links">
-      <li><a href="https://uidai.gov.in/" target="_blank">Home</a></li>
-      <li><a href="https://uidai.gov.in/en/ecosystem/enrolment-ecosystem/registrars.html" target="_blank">Register</a></li>
-      <li><a href="https://myaadhaar.uidai.gov.in/login" target="_blank">Login</a></li>
-      <li><a href="https://uidai.gov.in/en/contact-support.html" target="_blank">Support</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#register">Register</a></li>
+      <li><a href="#login">Login</a></li>
+      <li><a href="#support">Support</a></li>
     </ul>
   </header>
 
-  <!-- Background Landing Section -->
-  <main class="landing-section">
-    <section class="login-form">
-      <h2>Login to Your Aadhaar Account</h2>
-      <form>
-        <label for="uid">Aadhaar Number</label>
-        <input type="text" id="uid" name="uid" placeholder="Enter Aadhaar number" maxlength="12" required>
+  <!-- Home Section -->
+  <section id="home" class="landing-section">
+    <div class="welcome-text">
+      <h2>Welcome to Aadhaar Management System</h2>
+      <p>The Aadhaar Management System is a centralized platform to help citizens register, update, and manage their Aadhaar details.  
+      Our aim is to make the process simple, secure, and accessible to everyone.</p>
+      <p>With Aadhaar, you can easily verify your identity for government schemes, financial services, and online transactions.  
+      Manage all your Aadhaar services in one place with our secure login system.</p>
+    </div>
+  </section>
 
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Enter password" required>
+  <!-- Register Section -->
+  <section id="register" class="info-section">
+    <h2>Register for Aadhaar</h2>
+    <p>To register for Aadhaar, follow these steps:</p>
+    <ol style="text-align: left; display: inline-block;">
+      <li>Visit your nearest Aadhaar Enrollment Center.</li>
+      <li>Carry valid documents:
+        <ul>
+          <li>Proof of Identity (POI) – Passport, PAN card, Voter ID</li>
+          <li>Proof of Address (POA) – Utility bill, Bank statement</li>
+          <li>Proof of Date of Birth – Birth certificate, School certificate</li>
+        </ul>
+      </li>
+      <li>Provide biometric data – fingerprints, iris scan, and photograph.</li>
+      <li>Review and confirm all details before submission.</li>
+      <li>Collect your acknowledgment slip for tracking status.</li>
+    </ol>
+    <p>Once verified, your Aadhaar card will be sent to your address within 90 days.</p>
+  </section>
 
-        <button type="submit">Login</button>
-      </form>
-    </section>
-  </main>
+  <!-- Login Section -->
+  <section id="login" class="info-section">
+    <h2>Login to Your Aadhaar Account</h2>
+    <p>Use your Aadhaar number and password to log in and access Aadhaar services such as updating details, downloading e-Aadhaar, or checking status.</p>
+    <form class="login-form">
+      <label for="uid">Aadhaar Number</label>
+      <input type="text" id="uid" name="uid" placeholder="Enter Aadhaar number" maxlength="12" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password" required>
+
+      <button type="submit">Login</button>
+    </form>
+    <p style="margin-top: 10px;">Forgot password? <a href="#">Click here</a></p>
+  </section>
+
+  <!-- Support Section -->
+  <section id="support" class="info-section">
+    <h2>Support & Contact</h2>
+    <p>If you face any issues with Aadhaar services, we are here to help:</p>
+    <ul style="list-style: none; padding: 0;">
+      <li>📞 Toll-Free Number: <strong>1947</strong></li>
+      <li>📧 Email: <strong>help@uidai.gov.in</strong></li>
+      <li>🌐 Official Website: <a href="https://uidai.gov.in/" target="_blank">uidai.gov.in</a></li>
+    </ul>
+    <p>Support is available in multiple languages and operates 24×7 to assist with:</p>
+    <ul style="display: inline-block; text-align: left;">
+      <li>Updating Aadhaar details</li>
+      <li>Checking Aadhaar status</li>
+      <li>Resolving biometric errors</li>
+      <li>Downloading e-Aadhaar</li>
+      <li>General Aadhaar information</li>
+    </ul>
+  </section>
 
 </body>
 </html>
